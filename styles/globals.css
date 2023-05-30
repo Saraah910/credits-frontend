@@ -86,13 +86,9 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: black;
+  background: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -105,3 +101,14 @@ a {
     color-scheme: dark;
   }
 }
+
+.CoourseCard{
+    margin:10px 10px 10px 10px;
+    display:inline-block;
+    padding:0% 1% 1% 0%;
+    line-height:25px;
+    text-align:center;
+    height: 400px;
+    box-shadow:20px;
+    border-radius:30px;
+    box-shadow:1px 1px 2px 2px;}

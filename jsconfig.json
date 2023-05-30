@@ -4,5 +4,15 @@
     "paths": {
       "@/*": ["./*"]
     }
+  },
+  "images": {
+    "remotePatterns": [
+      {
+        "protocol": "https",
+        "hostname": "ipfs.moralis.io",
+        "port": "5001",
+        "pathname": ""
+      }
+    ]
   }
 }
